@@ -1,0 +1,7 @@
+npm install fancy-groupme-bot
+var botConfig = { token:'a11dc1fe70ab0173ad9703a56a',
+                  group:'22057951',
+                  name:'Personal Assistant' };
+var bot = require('Personal Assistant');
+var myBot = bot(botConfig);
+bot.message("Hello World!");
